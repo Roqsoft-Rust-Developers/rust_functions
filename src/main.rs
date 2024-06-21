@@ -1,12 +1,12 @@
 use std::io;
 
 fn main() {
-    perform_operation();
-    temperature_converter();
+    perform_arithemetic_operations();
+    convert_temperature();
 
 }
 
-fn perform_operation() {
+fn perform_arithemetic_operations() {
     let mut number_a = String::new();
     let mut number_b = String::new();
     let mut operator = String::new();
@@ -58,7 +58,7 @@ fn perform_operation() {
 }
 
 
-fn temperature_converter() {
+fn convert_temperature() {
     // C = (F - 32) * 5/9
     // F = (C * 9/5) + 32
 
